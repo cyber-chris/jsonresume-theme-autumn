@@ -1,7 +1,7 @@
-{{#if resume.work.length}}
+{{#if resume.projects.length}}
 <section>
-	<h2>Work</h2>
-	{{#each resume.work}}
+	<h2>Projects</h2>
+	{{#each resume.projects}}
     {{> section-item title=name website=website subtitle=position startDate=startDate endDate=endDate text=summary list=highlights keywords=keywords}}
 	{{/each}}
 </section>
